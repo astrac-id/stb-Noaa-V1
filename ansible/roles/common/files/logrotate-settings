@@ -1,0 +1,8 @@
+/var/log/stb-Noaa/*.log {
+  missingok
+  daily
+  rotate 7
+  nocompress
+  notifempty
+  create 0640 $USER $USER
+}
